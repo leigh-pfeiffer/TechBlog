@@ -18,7 +18,7 @@ The user should clone the repository from GitHub. This application requires Node
 ## Usage 
 This application will allow users to sign up if they are not a member, then once they are logged in they are able to view their dashboard of posts to view, add, edit, and delete blog posts and comment on other developers post. <br>
 Please view deployed live Heroku [URL](https://shrouded-eyrie-14601.herokuapp.com/).<br>
-<img src=".\assets\images\Capture.PNG">
+![](./assets/images/Capture.PNG)
 
 ## License 
 This project is license under MIT
