@@ -13,8 +13,6 @@ const hbs = exphbs.create({helpers});
 // session (connects session to sequelize Database)
 const session = require('express-session');
 
-const PORT = process.env.PORT || 3111;
-const app = express();
 
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
@@ -28,6 +26,10 @@ const sess = {
     db: sequelize
   })
 };
+
+
+const app = express();
+const PORT = process.env.PORT || 3031;
 
 app.use(session(sess));
 app.use(express.json());
